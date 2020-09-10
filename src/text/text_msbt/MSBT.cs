@@ -10,7 +10,7 @@ namespace text_msbt
 {
     public sealed class MSBT
     {
-        public const string LabelFilter = @"^[a-zA-Z0-9_]+$";
+        public const string LabelFilter = @"^[a-zA-Z0-9_\-]+$";
         public const uint LabelHashMagic = 0x492;
         public const int LabelMaxLength = 64;
 
